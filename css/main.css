@@ -258,6 +258,7 @@ input[type="text"] {
 .zona{
     background-color: white;
     width: 25%;
+    height: 350px;
     text-align: center;
     padding: 15px;
     margin-right: 25px;
