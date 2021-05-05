@@ -297,7 +297,7 @@ input[type="text"] {
     padding: 10px 50px;
     background-color: #ff7c4e;
     color: white;
-    width: 200px;
+    width: 214px;
     text-decoration: none;
     font-weight: bold;
 }
@@ -407,10 +407,12 @@ input[type="text"] {
     height: 220px;
     padding: 20px 0px 0px 20px;
     margin-right: 50px;
+    margin-bottom: 20px;
     
 }
 .bn-zona:hover{
-    background-color: #edf4ff;
+    box-shadow: 10px  0px 10px 10px #8080804f;
+    font-weight: bold;
     border-radius: 10px;
 }
 .bn-title{
