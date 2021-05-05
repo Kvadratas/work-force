@@ -395,3 +395,36 @@ input[type="text"] {
     color: white;
     text-decoration: none;
 }
+.bn-usimg-biulder{
+    padding-top: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.bn-zona{
+    background-color: white;
+    width: 300px;
+    height: 220px;
+    padding: 20px 0px 0px 20px;
+    margin-right: 50px;
+    
+}
+.bn-zona:hover{
+    background-color: #edf4ff;
+    border-radius: 10px;
+}
+.bn-title{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+.bn-zonos-turinys{
+    color:gray;
+}
+.bn-turinys-0{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
