@@ -428,5 +428,49 @@ input[type="text"] {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
-    
+}
+.how-online-resume{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    background-color: #f6f5fa;
+    width: 100%;
+}
+.how-res-title{
+    justify-content: center;
+    padding-top: 30px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    color: #091830;
+}
+.how-res-title-aprsm{
+    color: gray;
+    margin-top: 20px;
+}
+.rs-templates{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.rs-temp-title{
+    justify-content: center;
+    padding-top: 30px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    color: #091830;
+}
+.rs-temp-title-aprsm{
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.test{
+    display: flex;
+    justify-content: center;
+    background-color: black;
 }
