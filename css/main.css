@@ -250,7 +250,7 @@ input[type="text"] {
     padding-top: 60px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .zona{
     background-color: white;
@@ -258,7 +258,6 @@ input[type="text"] {
     height: 350px;
     text-align: center;
     padding: 15px;
-    margin-right: 25px;
     border-radius: 15px;
     margin-bottom: 30px;
 }
@@ -279,10 +278,9 @@ input[type="text"] {
     margin-bottom: 10px;
 }
 .rf-turinys-0{
-    padding-top: 0px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .exp-more{
     margin-top: 20px;
@@ -350,14 +348,14 @@ input[type="text"] {
 }
 .hw-box-title{
     color: #1d2a43;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-top: 3px;
+    margin-top: 4px;
     display: inline-block;
 }
 .fa-bolt{
     color: yellow;
-    margin-top: 3px;
+    margin-top: 6px;
     margin-left: 10px;
 }
 .hw-box-botm-text{
@@ -399,7 +397,7 @@ input[type="text"] {
     padding-top: 60px;
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 .bn-zona{
     background-color: white;
@@ -425,9 +423,9 @@ input[type="text"] {
 }
 .bn-turinys-0{
     background-color: white;
-    display: flex;
-    justify-content: center;
     margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 .how-online-resume{
     display: flex;
