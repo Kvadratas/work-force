@@ -11,7 +11,6 @@ body * {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    color: red;
 }
 .top-left{
     display: flex;
@@ -75,19 +74,22 @@ body * {
     padding:17px 40px;
     border-radius: 25px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin-top: 5px;
 
 }
 .fa-play-circle{
     color: #fcb01c;
     text-decoration: none;
-    background-color: #faf8f5;
-    font-size: 100px;
-
 }
 .play-btn{
-    position: absolute;
-    top: 79.5%;
-    left: 20%;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 10px;
+
 }
 .create-your-acc{
     border-radius: 10px;
@@ -311,10 +313,6 @@ input[type="text"] {
     font-weight: bold;
     margin-left: 5px;
 }
-.how.resume-work{
-    display: flex;
-    justify-content: center;
-}
 .hw-left-column > img{
     background-position: left;
     background-repeat: no-repeat;
@@ -365,4 +363,35 @@ input[type="text"] {
 .hw-box-botm-text{
     color: gray;
     padding-left: 40px;
+}
+.using-benefits{
+    display: flex;
+    justify-content: space-between;
+    color: #1d2a43;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.using-benefits > p{
+    font-weight: bold;
+    font-size: 40px;
+    color: #071c35;
+    margin-left: 90px;
+}
+.see-more{
+    background-color: #ff7c4e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 50px;
+    margin-top: 35px;
+    margin-right: 100px;
+    text-align: center;
+}
+.see-more > a{
+    color: white;
+    text-decoration: none;
 }
