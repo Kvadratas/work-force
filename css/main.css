@@ -59,7 +59,7 @@ body * {
     background-image: url(../img/create-your-acc--bg-img.png);
     background-position: left;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 50vw;
     padding: 100px;
 }.title{
     font-weight: bold;
@@ -104,6 +104,7 @@ body * {
     color: gray;
 }
 .create-your-acc{
+    width: 560px;
     padding: 30px;
 }
 input{
@@ -502,7 +503,7 @@ input[type="text"] {
     margin-bottom: 50px;
     border-radius: 10px;
 }
-.get-tempplates{
+.get-template{
     margin-top: 20px;
     margin-bottom: 100px;
     text-align: center;
@@ -510,16 +511,132 @@ input[type="text"] {
     display: flex;
     justify-content: center;
 }
-.get-tempplates > p{
+.get-template > p{
     border-radius: 50px;
-    padding: 10px 0px;
+    padding: 10px 50px;
     background-color: #ff7c4e;
     color: white;
     width: 260px;
     text-decoration: none;
     font-weight: bold;
 }
-.get-tempplates > a{
+.get-tempplate > a{
     color: white;
     text-decoration: none;
+}
+.cus-say{
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    background-color: #f9f9fa;
+}
+.quotation{
+    color: #eeeeee;
+    font-family:sans-serif;
+    width: 17vw;
+    margin-top: 50px;
+}
+.cus-nzn{
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 65vw;
+}
+.cus-title{
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #091830;
+}
+.cus-title-aprsm{
+    color: gray;
+    margin-top: 20px;
+}
+.wh-cos-say{
+    background-color: ;
+    background-color: #f9f9fa;
+}
+.wh-turinys{
+
+}
+.wh-zona{
+    background-color: white;
+    width: 330px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 16px 11px #8080804f;
+    margin-bottom: 100px;
+}
+.wh-signup-icon{
+    padding: 10px;
+    margin-top: 20px;
+}
+.wh-signup-icon > p{
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -9px;
+}
+.wh-proj-mmng > p{
+    display: inline-block;
+    color: #4284f1;
+    font-size: 15px;
+    font-weight: bold;
+}
+.wh-proj-mmng > .fa-star{
+    color: #fcc207;
+    float: right;
+    margin-top: 4px;
+}
+.wh-nzn{
+    font-family: sans-serif;
+    color: #010924;
+    font-size: 50px;
+}
+.wh-nzn-line{
+    color: #eae9e9;
+    margin-top: -60px;
+    width: 92%;
+    float: right;
+}
+.wh-zonos-turinys{
+    color:gray;
+    margin-bottom: 10px;
+    margin-top: -22px;
+    display: inline-block;
+}
+.wh-signup-icon > .facebook-btn{
+    color: white;
+    background-color: #347dee;
+    padding: 10px 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wh-signup-icon > .google-btn{
+    color: white;
+    background-color: #f33f37;
+    padding: 10px 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wh-signup-icon > .linkedin-btn{
+    color: white;
+    background-color: #1578b2;
+    padding: 5px 8px;
+    border-radius: 100%;
+    text-decoration: none;
+    float: right;
+}
+.wh-signup-icon > .instagram-btn{
+    color: white;
+    background-color: #df2d78;
+    padding: 10px 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
