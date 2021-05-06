@@ -470,7 +470,7 @@ input[type="text"] {
 .rs-links{
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .rs-links > a{
     text-decoration: none;
@@ -491,4 +491,14 @@ input[type="text"] {
     border-radius: 10px;
     padding: 10px 30px;
     margin-top: 2px;
+}
+.rs-img{
+    display: flex;
+    justify-content: center;
+}
+.rs-img > img{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
 }
