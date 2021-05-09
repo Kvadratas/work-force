@@ -30,7 +30,6 @@ body * {
     color: black;
     font-weight: bold;
     margin-left: 20px;
-    
 }
 .sign-up-btn{
     background-color: #fc6768;
@@ -264,8 +263,8 @@ input[type="text"] {
 }
 .zona:hover{
     border-bottom:5px solid #498af1;
-    box-shadow: 10px  0px 10px 10px #8080804f;
-
+    box-shadow: 0px 7px 20px 13px #8080804f;
+    font-weight: bold;
 }
 .title-0{
     color: black;
@@ -283,22 +282,20 @@ input[type="text"] {
     display: flex;
     justify-content: space-around;
 }
-.exp-more{
-    margin-top: 20px;
-    margin-bottom: 100px;
-    text-align: center;
-    background-color: white;
+.exp-more-center{
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
-.exp-more > p{
+.exp-more{
     border-radius: 50px;
-    padding: 10px 50px;
+    padding: 10px 40px;
     background-color: #ff7c4e;
     color: white;
     width: 214px;
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
 }
 .exp-more > a{
     color: white;
@@ -383,7 +380,7 @@ input[type="text"] {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    width: 150px;
+    width: 180px;
     height: 40px;
     padding: 10px 0px 0px 0px;
     border-radius: 50px;
@@ -503,22 +500,19 @@ input[type="text"] {
     margin-bottom: 50px;
     border-radius: 10px;
 }
-.get-template{
-    margin-top: 20px;
-    margin-bottom: 100px;
-    text-align: center;
-    background-color: white;
+.get-temp-center{
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
-.get-template > p{
+.get-template{
     border-radius: 50px;
     padding: 10px 50px;
     background-color: #ff7c4e;
     color: white;
-    width: 260px;
     text-decoration: none;
     font-weight: bold;
+
 }
 .get-tempplate > a{
     color: white;
@@ -553,17 +547,19 @@ input[type="text"] {
 }
 .wh-cos-say{
     background-color: #f9f9fa;
+    display: flex;
+    justify-content: center;
 }
 .wh-turinys{
-
 }
 .wh-zona{
     background-color: white;
-    width: 330px;
+    width: 240px;
     padding: 15px;
     border-radius: 5px;
-    box-shadow: 0px 7px 16px 11px #8080804f;
+    box-shadow: -1px 15px 20px 0px++ #8080804f;
     margin-bottom: 100px;
+    margin-left: 23px;
 }
 .wh-signup-icon{
     padding: 10px;
@@ -604,25 +600,7 @@ input[type="text"] {
     margin-top: -22px;
     display: inline-block;
 }
-.wh-signup-icon > .facebook-btn{
-    color: white;
-    background-color: #347dee;
-    padding: 10px 15px;
-    border-radius: 100%;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.wh-signup-icon > .google-btn{
-    color: white;
-    background-color: #f33f37;
-    padding: 10px 15px;
-    border-radius: 100%;
-    text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.wh-signup-icon > .linkedin-btn{
+.wh-signup-icon > .fa-linkedin{
     color: white;
     background-color: #1578b2;
     padding: 5px 8px;
@@ -630,12 +608,99 @@ input[type="text"] {
     text-decoration: none;
     float: right;
 }
-.wh-signup-icon > .instagram-btn{
+.wh-signup-icon > .fa-facebook{
     color: white;
-    background-color: #df2d78;
-    padding: 10px 15px;
+    background-color: #385291;
+    padding: 5px 8px;
     border-radius: 100%;
     text-decoration: none;
-    margin-left: 10px;
-    margin-right: 10px;
+    float: right;
+}
+.wh-signup-icon > .google-btn{
+    color: white;
+    background-color: #f33f37;
+    padding: 5px 8px;
+    border-radius: 100%;
+    text-decoration: none;
+    float: right;
+}
+.wh-signup-icon > .fa-twitter{
+    color: white;
+    background-color: #17acfc;
+    padding: 5px 8px;
+    border-radius: 100%;
+    text-decoration: none;
+    float: right;
+}
+.wh-signup-icon > .fa-instagram{
+    color: white;
+    background-color: #ef3136;
+    padding: 5px 8px;
+    border-radius: 100%;
+    text-decoration: none;
+    float: right;
+}
+.wh-signup-icon > .fa-google{
+    color: white;
+    background-color: #f33f37;
+    padding: 5px 8px;
+    border-radius: 100%;
+    text-decoration: none;
+    float: right;
+}
+.arrow{
+    background-color: #f9f9fa;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.arrow > a{
+    text-decoration: none;
+    color: gray;
+    font-size: 40px;
+    width: 100px;
+    height: 40px;
+}
+.arrow > a:hover{
+    font-size: 70px;
+    margin-top: -15px;
+    color: #3e83f1;
+}
+.bl-on-rs{
+    background-color: #f9f9fa;
+    display: flex;
+}
+.bl-on-rs-div{
+    background-color: #1962ff;
+    border-radius: 18px;
+    padding: 50px 100px;
+    width: 90%;
+    color: white;
+    margin-left: -90px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bl-yr-rs{
+    font-size: 35px;
+    font-weight: bold;
+}
+.get-start-dw{
+    margin-top: 35px;
+}
+.get-start{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-align: center;
+    color: #2c2c2c;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+.get-start > .fa-caret-right{
+    text-decoration: none;
+    color: #1962ff;
 }
