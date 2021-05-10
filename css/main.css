@@ -679,12 +679,14 @@ input[type="text"] {
     margin-left: -90px;
     margin-top: 60px;
     display: flex;
+    margin-bottom: 100px;
     flex-direction: row;
     justify-content: space-between;
 }
 .bl-yr-rs{
     font-size: 35px;
     font-weight: bold;
+    font-family: cursive;
 }
 .get-start-dw{
     margin-top: 35px;
